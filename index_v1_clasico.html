@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>David Jiménez Ramírez · Automation & Process Engineer</title>
+<meta name="description" content="Automation & process engineer: Airbus industrialisation, Siemens PLC/IoT, Lean, and AI workflow automation with Python.">
+<style>
+:root{--navy:#13294b;--coral:#e0533f;--gris:#5b6475;--fondo:#f4f6fa}
+*{box-sizing:border-box}
+body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,Arial,sans-serif;color:#1d2433;background:var(--fondo);line-height:1.55}
+a{color:var(--navy)}
+header{background:var(--navy);color:#fff;padding:56px 20px 46px}
+.wrap{max-width:980px;margin:auto}
+header h1{margin:0;font-size:38px;letter-spacing:.5px}
+header .tit{color:#ffb4a8;font-size:19px;font-weight:600;margin:6px 0 14px}
+header p{max-width:720px;color:#dbe2ef;margin:0 0 18px}
+.botones a{display:inline-block;margin:4px 8px 4px 0;padding:8px 15px;border-radius:8px;text-decoration:none;font-weight:600}
+.b1{background:var(--coral);color:#fff}.b2{background:#ffffff1a;color:#fff;border:1px solid #ffffff55}
+.idioma{position:absolute;top:16px;right:20px}
+.idioma button{background:#ffffff22;color:#fff;border:1px solid #ffffff55;border-radius:6px;padding:4px 10px;cursor:pointer;font-weight:600}
+.idioma button.on{background:#fff;color:var(--navy)}
+section{padding:40px 20px}
+h2{color:var(--navy);font-size:24px;margin:0 0 18px}
+.cifras{position:relative;z-index:2;display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:-30px}
+.cifra{background:#fff;border-radius:12px;padding:16px;box-shadow:0 2px 10px #0000000f;text-align:center}
+.cifra b{display:block;font-size:26px;color:var(--coral)} .cifra span{font-size:13px;color:var(--gris)}
+.caso{background:#fff;border-radius:14px;box-shadow:0 2px 10px #0000000f;padding:24px 26px;margin-bottom:22px}
+.caso h3{margin:0 0 4px;color:var(--navy);font-size:20px}
+.etiq{font-size:12px;color:#fff;background:var(--navy);border-radius:20px;padding:2px 10px;margin-right:6px;display:inline-block;margin-bottom:6px}
+.etiq.c{background:var(--coral)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:12px 26px;margin-top:12px}
+.grid div b{color:var(--navy);display:block;font-size:13px;text-transform:uppercase;letter-spacing:1px}
+.caso img{width:100%;border-radius:10px;border:1px solid #e3e7ef;margin-top:14px}
+.herr{font-size:13px;color:var(--gris);margin-top:10px}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.skills div{background:#fff;border-radius:12px;padding:16px 18px;box-shadow:0 2px 10px #0000000f}
+.skills b{color:var(--navy)}
+footer{background:var(--navy);color:#dbe2ef;text-align:center;padding:30px 20px;font-size:14px}
+footer a{color:#fff}
+.es{display:none} body.es-on .es{display:revert} body.es-on .en{display:none}
+@media(max-width:760px){.cifras,.grid,.skills{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}header h1{font-size:30px}}
+</style>
+</head>
+<body>
+<header style="position:relative">
+  <div class="idioma"><button id="bEN" class="on" onclick="idioma('en')">EN</button> <button id="bES" onclick="idioma('es')">ES</button></div>
+  <div class="wrap">
+    <h1>David Jiménez Ramírez</h1>
+    <div class="tit"><span class="en">Automation & Process Engineer · AI Workflow Automation</span><span class="es">Ingeniero de Automatización y Procesos · Automatización con IA</span></div>
+    <p class="en">Two years at Airbus industrialising machines and improving production processes, plus an e-commerce business I run with two partners where I build Python + AI automations end to end. This page shows real projects: the problem, what I built and the result.</p>
+    <p class="es">Dos años en Airbus industrializando máquinas y mejorando procesos de producción, y un negocio de e-commerce con dos socios donde construyo automatizaciones con Python e IA de principio a fin. Aquí enseño proyectos reales: el problema, lo que construí y el resultado.</p>
+    <div class="botones">
+      <a class="b1" href="mailto:davidjimenezramirez@hotmail.com">✉ davidjimenezramirez@hotmail.com</a>
+      <a class="b2" href="https://www.linkedin.com/in/davidjimenezramirez" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap" style="padding:0 20px">
+  <div class="cifras">
+    <div class="cifra"><b>≤ −20%</b><span class="en">cycle time · A400M &amp; F10X HTP</span><span class="es">tiempo de ciclo · HTP A400M y F10X</span></div>
+    <div class="cifra"><b>🏆</b><span class="en">Airbus Defence and Space Safety Award</span><span class="es">Safety Award de Airbus Defence and Space</span></div>
+    <div class="cifra"><b>4</b><span class="en">Factory Acceptance Tests with international suppliers</span><span class="es">Factory Acceptance Tests con proveedores internacionales</span></div>
+    <div class="cifra"><b><span class="en">5 figures</span><span class="es">5 cifras</span></b><span class="en">revenue · own e-commerce (team of 3)</span><span class="es">facturación · e-commerce propio (3 socios)</span></div>
+  </div>
+</div>
+
+<section><div class="wrap">
+<h2><span class="en">Case studies</span><span class="es">Casos</span></h2>
+
+<div class="caso">
+  <span class="etiq">Airbus</span><span class="etiq">IoT · PLC</span>
+  <h3><span class="en">Connecting a legacy riveting robot to the plant network</span><span class="es">Conectar un robot de remachado antiguo a la red de planta</span></h3>
+  <div class="grid">
+    <div><b><span class="en">Problem</span><span class="es">Problema</span></b><span class="en">A semi-automatic drilling and riveting machine produced no usable data, so stops and slow cycles could not be analysed.</span><span class="es">Una máquina semiautomática de taladrado y remachado no generaba datos aprovechables, así que no se podían analizar paradas ni ciclos lentos.</span></div>
+    <div><b><span class="en">What I did</span><span class="es">Qué hice</span></b><span class="en">Integrated it into the Defence industrial network with Siemens TIA Portal / SIMATIC PLCs for real-time data capture, then applied predictive and preventive algorithms and re-tuned maintenance plans.</span><span class="es">La integré en la red industrial de Defensa con Siemens TIA Portal / SIMATIC para capturar datos en tiempo real; después apliqué algoritmos predictivos y preventivos y reajusté los planes de mantenimiento.</span></div>
+    <div><b><span class="en">Result</span><span class="es">Resultado</span></b><span class="en">Up to 20% cycle-time reduction on the A400M and F10X horizontal tail plane, with an 83% error-free rate. My manager described my work as key to the project.</span><span class="es">Hasta un 20 % menos de tiempo de ciclo en el HTP del A400M y del F10X, con un 83 % de piezas sin errores. Mi jefe destacó mi trabajo como clave para el proyecto.</span></div>
+    <div><b><span class="en">Also</span><span class="es">Además</span></b><span class="en">Designed an NFC emergency-call system (tap a phone on a signpost to raise an alert), implemented on site and winner of the Airbus Defence and Space Safety Award.</span><span class="es">Diseñé un sistema de llamada de emergencia por NFC (acercar el móvil a un cartel), implantado en planta y ganador del Safety Award de Airbus Defence and Space.</span></div>
+  </div>
+  <div class="herr">Siemens TIA Portal · SIMATIC · SAP · Spotfire · Lean (VSM, OEE, Kaizen)</div>
+</div>
+
+<div class="caso">
+  <span class="etiq c">Python · AI</span><span class="etiq">Automation</span>
+  <h3><span class="en">Automated job-search pipeline (how I apply to jobs)</span><span class="es">Sistema automático de búsqueda de empleo (así busco trabajo)</span></h3>
+  <div class="grid">
+    <div><b><span class="en">Problem</span><span class="es">Problema</span></b><span class="en">Tailoring a CV and cover letter for every offer took ~45 minutes, and new offers were easy to miss.</span><span class="es">Adaptar CV y carta a cada oferta llevaba unos 45 minutos y era fácil perderse ofertas nuevas.</span></div>
+    <div><b><span class="en">What I built</span><span class="es">Qué construí</span></b><span class="en">A daily scheduled pipeline that reads the Airbus careers portal and 7 remote-job sources, scores each offer against my profile, and generates a 1-page ATS CV and a cover letter with an LLM — using only facts from a single "master profile", with an automatic check that flags any figure or tool not in it.</span><span class="es">Un proceso diario programado que lee el portal de empleo de Airbus y 7 fuentes de teletrabajo, puntúa cada oferta frente a mi perfil y genera un CV ATS de 1 página y una carta con un LLM — usando solo hechos de un "perfil maestro", con un control que marca cualquier cifra o herramienta que no esté en él.</span></div>
+    <div><b><span class="en">Result</span><span class="es">Resultado</span></b><span class="en">~2,700 offers screened per day → a ready-to-use dashboard with job link, PDFs and copy-paste answers. About 5 minutes per application instead of 45. Running cost: free tier LLM.</span><span class="es">~2.700 ofertas revisadas al día → un panel listo con enlace, PDFs y respuestas para copiar. Unos 5 minutos por candidatura en vez de 45. Coste: capa gratuita del LLM.</span></div>
+    <div><b><span class="en">Design choices</span><span class="es">Decisiones</span></b><span class="en">No invented content, human-in-the-loop submission, public APIs only, resilient to API errors.</span><span class="es">Nada inventado, el envío final lo hace una persona, solo APIs públicas, tolerante a errores de las APIs.</span></div>
+  </div>
+  <img src="panel.jpg" alt="Daily application dashboard">
+  <div class="herr">Python · Gemini API · Playwright (HTML → PDF) · Workday & job-board APIs · Windows Task Scheduler</div>
+</div>
+
+<div class="caso">
+  <span class="etiq c">Python · Data</span><span class="etiq">E-commerce</span>
+  <h3><span class="en">Daily product-trend radar</span><span class="es">Radar diario de productos en tendencia</span></h3>
+  <div class="grid">
+    <div><b><span class="en">Problem</span><span class="es">Problema</span></b><span class="en">Finding products that are starting to trend (before competitors saturate them) took hours of manual scrolling.</span><span class="es">Encontrar productos que empiezan a ser tendencia (antes de que se saturen) llevaba horas de búsqueda manual.</span></div>
+    <div><b><span class="en">What I built</span><span class="es">Qué construí</span></b><span class="en">Browser automation that collects short-video data by hashtag, groups videos by product, scores them (views per day, account size, saturation, language), finds the selling price in competitor stores and filters to a 15–60 USD impulse-buy range. A scheduled task asks me each afternoon and reminds me hourly.</span><span class="es">Automatización de navegador que recoge datos de vídeos cortos por hashtag, agrupa por producto, puntúa (vistas/día, tamaño de cuenta, saturación, idioma), busca el precio en tiendas de la competencia y filtra a compra impulsiva de 15–60 USD. Una tarea programada me pregunta cada tarde y me recuerda cada hora.</span></div>
+    <div><b><span class="en">Result</span><span class="es">Resultado</span></b><span class="en">A ranked shortlist every day in minutes instead of hours.</span><span class="es">Una lista priorizada cada día en minutos en lugar de horas.</span></div>
+  </div>
+  <img src="radar.jpg" alt="Product radar report">
+  <div class="herr">Python · Playwright · data scoring · Windows Task Scheduler</div>
+</div>
+
+<div class="caso">
+  <span class="etiq c">Generative AI</span><span class="etiq">Marketplace</span>
+  <h3><span class="en">AI product photos and listings for a 3D-printing side business</span><span class="es">Fotos de producto con IA y anuncios para un negocio de impresión 3D</span></h3>
+  <div class="grid">
+    <div><b><span class="en">Problem</span><span class="es">Problema</span></b><span class="en">Deciding what to print and producing professional photos and listings for each product was slow and expensive.</span><span class="es">Decidir qué imprimir y crear fotos y anuncios profesionales para cada producto era lento y caro.</span></div>
+    <div><b><span class="en">What I built</span><span class="es">Qué construí</span></b><span class="en">A market-research sweep that ranks products by real sales signals, plus a pipeline that generates a consistent "master" product image and derived shots with an image model, adds branding, writes the listing and pre-fills the upload form for human review.</span><span class="es">Un análisis de mercado que ordena productos por señales reales de venta y un proceso que genera una imagen "maestra" coherente y fotos derivadas con un modelo de imagen, añade la marca, redacta el anuncio y rellena el formulario de subida para revisión humana.</span></div>
+    <div><b><span class="en">Result</span><span class="es">Resultado</span></b><span class="en">A complete listing (4 photos + copy) in minutes at zero image cost.</span><span class="es">Un anuncio completo (4 fotos + textos) en minutos y sin coste de imágenes.</span></div>
+  </div>
+  <img src="wallapop.jpg" alt="AI-generated product photos">
+  <div class="herr">Python · Gemini image API · Pillow · Playwright</div>
+</div>
+
+<div class="caso">
+  <span class="etiq c">AI · Ads</span><span class="etiq">E-commerce</span>
+  <h3><span class="en">Competitor ad intelligence & store diagnostics</span><span class="es">Inteligencia de anuncios de la competencia y diagnóstico de tiendas</span></h3>
+  <div class="grid">
+    <div><b><span class="en">What I built</span><span class="es">Qué construí</span></b><span class="en">Tools that read public ad libraries and traffic estimates, group creatives by visual fingerprint to measure how long winning ads run, and map competitors' catalogues and pricing.</span><span class="es">Herramientas que leen bibliotecas públicas de anuncios y estimaciones de tráfico, agrupan creativos por huella visual para medir cuánto duran los anuncios ganadores y mapean catálogos y precios de la competencia.</span></div>
+    <div><b><span class="en">Result</span><span class="es">Resultado</span></b><span class="en">Data-driven diagnoses of our own campaigns (funnel break points, ROAS targets, creative fatigue) and an AI pipeline that turns research into ad creatives at minimal cost.</span><span class="es">Diagnósticos basados en datos de nuestras campañas (dónde se rompe el embudo, objetivos de ROAS, fatiga de creativos) y un proceso con IA que convierte la investigación en creativos con coste mínimo.</span></div>
+  </div>
+  <div class="herr">Python · Playwright · perceptual hashing · Meta Ads · Shopify</div>
+</div>
+</div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<h2><span class="en">Skills</span><span class="es">Habilidades</span></h2>
+<div class="skills">
+  <div><b><span class="en">Industrialisation & Lean</span><span class="es">Industrialización y Lean</span></b><br>Machinery specification, FAT, commissioning, supplier management, Kaizen, VSM, OEE, 5S</div>
+  <div><b><span class="en">Industrial automation</span><span class="es">Automatización industrial</span></b><br>Siemens PLC (TIA Portal, SIMATIC), IoT, predictive maintenance, microcontrollers, CATIA DMU</div>
+  <div><b><span class="en">AI & software</span><span class="es">IA y software</span></b><br>Python, SQL, C/C++, JavaScript, Playwright, LLM workflows, prompt engineering, AI-assisted development (Claude Code)</div>
+</div>
+</div></section>
+
+<footer>
+  <span class="en">Madrid area (Spain) · open to relocating to Seville · open to remote and hybrid roles · Spanish native, English B2 (Cambridge)</span>
+  <span class="es">Madrid (España) · disponible para trasladarme a Sevilla · abierto a remoto e híbrido · español nativo, inglés B2 (Cambridge)</span>
+  <br><br><a href="mailto:davidjimenezramirez@hotmail.com">davidjimenezramirez@hotmail.com</a> · <a href="https://www.linkedin.com/in/davidjimenezramirez" target="_blank">LinkedIn</a>
+</footer>
+<script>
+function idioma(l){document.body.classList.toggle('es-on',l==='es');document.documentElement.lang=l;
+document.getElementById('bES').classList.toggle('on',l==='es');document.getElementById('bEN').classList.toggle('on',l==='en');localStorage.setItem('idioma',l)}
+idioma(localStorage.getItem('idioma')||((navigator.language||'').startsWith('es')?'es':'en'));
+</script>
+</body>
+</html>
